@@ -1,0 +1,90 @@
+
+
+.kode-mono-<'kodemono'> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+body {
+    font-family: 'vt323', monospace;
+    font-weight: 200;
+    font-size: larger;
+    margin: 0;
+    background-color: lightsalmon;
+    min-height: 100vh;
+
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+table {
+    font-family: 'kodemono', monospace;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:  linen
+    margin-bottom: 10px;
+}
+
+th, td {
+    font-family: 'kodemono', monospace;
+    border: 2px dashed maroon;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;;
+
+}
+
+th {
+    background-color: darksalmon;
+    text-align: left;
+    font-size: larger
+}
+.container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 800px; 
+            border: 2px dashed maroon;
+            padding: 10px;
+            gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .box {
+            width: 380px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        /* Individual box colors for distinction */
+        #box1 { background-color: #ff4d4d; }
+        #box2 { background-color: #4d79ff; }
+        #box3 { background-color: #4dff4d; }
+        #box4 { background-color: #ffcc00; }
+
+footer{
+  padding: 20px;
+  position: static;
+  top: 95%;
+  bottom: 0px;
+  left: 0px;    
+  right: 0px;
+  text-align: left;
+  background-color: darksalmon;
+  border-color: maroon;
+  border-style: dashed;
+  border-width: 2px;
+}
